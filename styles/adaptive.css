@@ -1,0 +1,474 @@
+@media (max-width: 1300px) {
+  /* EDUCATION */
+
+  /* WEEKEND */
+  .weekend__bg {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  /* header */
+  .logo-and-nav {
+    gap: 30px;
+  }
+
+  .menu {
+    gap: 15px;
+  }
+
+  .button-and-links {
+    gap: 15px;
+  }
+
+  /* MAIN__SECTION */
+  .some__text-container {
+    display: none;
+  }
+
+
+  /* ENJOY__SECTION */
+  .enjoy__inner {
+    gap: 30px;
+  }
+
+  /* FREE */
+  .free__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .free__card-text {
+    font-size: 16px;
+  }
+
+  /* process */
+  .process__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .process__card-icon {
+    margin-bottom: 110px;
+  }
+
+  /* EDUCATION */
+
+  /* WEEK */
+  .week__img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  /* EDUCATION__MAIN */
+  .education__main-inner {
+    flex-direction: column;
+  }
+
+  .education__text-block {
+    max-width: 100% !important;
+  }
+
+  .en {
+    display: none;
+  }
+
+  /* EDUCATION */
+
+  /* WEEKEND */
+  .weekend__wave,
+  .weekend__circle {
+    display: none;
+  }
+
+  .weekend-inner {
+    gap: 20px;
+  }
+
+  /* WEEK */
+  .week__img {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .links__header {
+    display: none;
+  }
+
+  /* MAIN__SECTION */
+  .main__section-inner {
+    flex-direction: column;
+  }
+
+  .additionally {
+    display: none;
+  }
+
+  .main__section-geo {
+    margin-bottom: 50px;
+  }
+
+  .main__section-title {
+    font-size: 80px;
+  }
+
+  .main__section-left--side {
+    max-width: 100%;
+  }
+
+  .main__section-img {
+    width: 400px;
+  }
+
+  /* ENJOY__SECTION */
+  .enjoy__inner {
+    flex-direction: column;
+  }
+
+  .enjoy__section-text {
+    max-width: 100%;
+  }
+
+  /* PROCESS */
+
+  .process__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process__title {
+    font-size: 54px;
+    margin-bottom: 20px;
+  }
+
+  .process__subtitle {
+    font-size: 27px;
+    margin-bottom: 45px;
+  }
+
+  /*  */
+  .fly__inner {
+    flex-direction: column;
+  }
+
+  /*  */
+  .contacts__inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .form__img {
+    display: none;
+  }
+
+  /*  */
+  .apps {
+    flex-direction: column;
+  }
+
+  /*  */
+  .graduiates__items {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  /* WEEK */
+  .week__inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  /*  */
+  .main__section {
+    padding: 50px 0;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
+
+
+  /* EDUCATION__MAIN */
+
+  .education__text-block--title {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .education__text-block--text {
+    font-size: 20px;
+  }
+
+}
+
+
+@media (max-width: 705px) {
+
+  /* BURGER */
+  .burger__menu {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px 0;
+    cursor: pointer;
+  }
+
+  .burger__line {
+    background: #000;
+    height: 2px;
+    transition: .3s;
+  }
+
+  .burger__line:nth-child(1) {
+    width: 8px;
+  }
+
+  .burger__line:nth-child(2) {
+    width: 18px;
+  }
+
+  .burger__line:nth-child(3) {
+    width: 14px;
+  }
+
+
+  .burger__menu.opened-burger .burger__line:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 6px);
+    width: 20px;
+  }
+
+  .burger__menu.opened-burger .burger__line:nth-child(2) {
+    display: none;
+  }
+
+  .burger__menu.opened-burger .burger__line:nth-child(3) {
+    transform: rotate(-45deg) translate(0px, 3px);
+    width: 20px;
+  }
+
+  .menu {
+    position: absolute;
+    flex-direction: column;
+    visibility: hidden;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0px 0px 20px 0px;
+    z-index: 20;
+  }
+
+  .vis__menu {
+    visibility: visible;
+    left: 0;
+    top: 105px;
+    width: 100%;
+  }
+
+
+  .btn__container {
+    display: none;
+  }
+
+  .logo-and-nav {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* ENJOY */
+  .enjoy__section {
+    padding: 50px 0;
+  }
+
+  .enjoy__section-text {
+    font-size: 42px;
+  }
+
+  /* FREE */
+  .free {
+    padding: 50px 0 50px 0;
+  }
+
+  .free__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .free__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .free__card {
+    padding: 20px 20px;
+  }
+
+  /* PROCESS */
+  .process {
+    padding: 50px 0;
+  }
+
+  .process__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .process__card-text {
+    font-size: 14px;
+  }
+
+  .process__title {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .process__subtitle {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  /*  */
+  .graduiates__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .graduates__item-icon {
+    margin-bottom: 10px;
+  }
+
+  .graduates__title {
+    margin-bottom: 30px;
+  }
+
+
+  /* EDUCATION */
+
+  /* WEEKEND */
+  .weekend-inner {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .weekend__content-title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+
+  .weekend__content-text {
+    max-width: 100%;
+  }
+
+  .weekend__content-subtitle {
+    max-width: 100%;
+  }
+
+  .weekend-slider {
+    max-width: 100%;
+  }
+
+  .swiper-slide {
+    height: 300px !important;
+  }
+
+  .weekend__content {
+    width: 100%;
+  }
+
+  .weekend__rect {
+    display: none;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .main__section-title {
+    font-size: 60px;
+  }
+
+  .wawe {
+    width: 345px;
+    bottom: 120px;
+  }
+
+  /*  */
+  .fly__info-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  /*  */
+  .fly__info-btns {
+    flex-direction: column;
+  }
+
+  .fly__info-date {
+    margin-bottom: 12px;
+  }
+
+  /*  */
+  .contacts__title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .contacts__text {
+    font-size: 20px;
+  }
+
+  .form__btn {
+    font-size: 14px;
+  }
+
+  /*  */
+  .graduiates__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .graduates {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .main__section-title {
+    font-size: 48px;
+  }
+
+  .main__section-geo {
+    margin-bottom: 34px;
+  }
+
+  /* EDUCATION */
+  /*  */
+  .weekend__content-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .weekend__content-subtitle {
+    font-size: 16px;
+  }
+
+  .weekend-title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  /*  */
+
+  .week__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+}

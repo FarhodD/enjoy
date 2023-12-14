@@ -1,0 +1,59 @@
+:root {
+  --black: #141414;
+  --gray: #8B8B8B;
+  --light-silver: #F7F7F8;
+  --secondary-font: 'Gotham Pro', sans-serif;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: local('Gotham Pro Regular'), local('Gotham-Pro-Regular'),
+    url('../fonts/GothamPro.woff2') format('woff2'),
+    url('../fonts/GothamPro.woff') format('woff'),
+    url('GothamPro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: local('Gotham Pro Medium'), local('Gotham-Pro-Medium'),
+    url('../fonts/GothamPro-Medium.woff2') format('woff2'),
+    url('../fonts/GothamPro-Medium.woff') format('woff'),
+    url('GothamPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
